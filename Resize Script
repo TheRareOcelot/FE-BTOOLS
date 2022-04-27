@@ -1,0 +1,38 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Resize Script", SaveConfig = true, ConfigFolder = ""})
+local Tab = Window:MakeTab({
+	Name = "Resize",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Legs - (+0 +4 +0)",
+	Callback = function()
+      	loadstring(game:HttpGet("https://pastebin.com/raw/2vbYR75P", true))()	
+  	end    
+})
+Tab:AddButton({
+	Name = "Arm - (+0 +0 +2)",
+	Callback = function()
+      	loadstring(game:HttpGet("https://pastebin.com/raw/AY6kA2AV", true))()	
+  	end    
+})
+Tab:AddButton({
+	Name = "Arm - (-1 +0 +2)",
+	Callback = function()
+      	loadstring(game:HttpGet("https://pastebin.com/raw/SNW8EPzH", true))()	
+  	end    
+})
+Tab:AddButton({
+	Name = "Torso",
+	Callback = function()
+      	game.Players.LocalPlayer.Character.Humanoid.Health = 0
+  	end    
+})
+Tab:AddButton({
+	Name = “Head",
+	Callback = function()
+      	game.Players.LocalPlayer.Character.Humanoid.Health = 0	
+  	end    
+})
+OrionLib:Init()
