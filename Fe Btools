@@ -1,0 +1,101 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "FE BTOOLS - By VRYXZ.COM", SaveConfig = true, ConfigFolder = ""})
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Grab",
+	Callback = function()
+      	loadstring(game:HttpGet("https://pastebin.com/raw/ZCuzD82x", true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Move",
+	Callback = function()
+      	loadstring(game:HttpGet("https://pastebin.com/raw/ZCuzD82x", true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Resize",
+	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRareOcelot/FE-BTOOLS/main/Resize%20Script", true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Delete",
+	Callback = function()
+      	
+  	end    
+})
+Tab:AddButton({
+	Name = "Rotate",
+	Callback = function()
+      	loadstring(game:HttpGet("https://pastebin.com/raw/ZCuzD82x", true))()
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Add",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Tools",
+	Callback = function()
+      	for _,v in pairs(workspace:GetDescendants()) do
+	if v:IsA("Tool") then
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Handle.CFrame
+	end
+end
+
+  	end   
+ })
+Tab:AddButton({
+	Name = "Humanoid",
+	Callback = function()
+ game.Players.LocalPlayer.Character.Humanoid.Health = 0
+  	end    
+})
+Tab:AddButton({
+	Name = "Legs",
+	Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/2vbYR75P", true))()
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Models",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+ Name = "Be a Wall",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/AY6kA2AV", true))()
+end
+})
+Tab:AddButton({
+ Name = "Be a chair",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/uN6c86e1", true))()
+end
+})
+Tab:AddButton({
+ Name = "Be a table",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/9kDrHnUd", true))()
+end
+})
+Tab:AddButton({
+ Name = "Be a ball",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/EJskzezp", true))()
+end
+})
+Tab:AddButton({
+ Name = "Be a spider",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/txsk1LJg", true))()
+end
+})
+
